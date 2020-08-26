@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    height: 100vh;
+}
+
+.kaartjes-container {
+    display: flex;
+}
+
+.kaart {
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    padding: 0;
+    margin:15px;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    width:350px;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.title {
+    color:black;
+    font-size:1.5em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.subtitle {
+    color: grey; 
+    margin-top: 0px;
+}
+
+.kaart p {
+    text-align: left;
+    padding:10px;
+}
+
+.apply {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid lightgrey;
+}
+
+.apply a {
+    background-color: white; 
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 1.1rem;
+    width: 50%;
+    text-decoration: none;
+    text-align: center;
+}
+.apply a:first-child {
+    border-radius: 5px 0px 0px 5px;
+    border: 2px solid lightgreen;
+    border-right:0;
+    color: lightgreen;
+}
+
+.apply a:last-child {
+    border-radius:0px 5px 5px 0px;
+    border: 2px solid red;
+    color: red;
+}
+
+
